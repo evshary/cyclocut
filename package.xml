@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>cyclocut</name>
+    <version>0.9.0</version>
+    <description>Fork of Common Data Representation (CDR) for CycloneDDS</description>
+    <maintainer email="evshary@gmail.com">ChenYing Kuo(TMP: to make colcon work)</maintainer>
+    <license>Apache 2.0</license>
+
+    <buildtool_depend>cmake</buildtool_depend>
+
+    <depend>cyclonedds</depend>
+
+    <export>
+        <build_type>cmake</build_type>
+    </export>
+</package>
+
